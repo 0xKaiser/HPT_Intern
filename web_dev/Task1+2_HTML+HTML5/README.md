@@ -1,10 +1,11 @@
 > *Day 11/11/2022* 
 
-> *Make by Nguyễn Thế Vương*
+> *Make by K@is3r*
 
 > *Task 1: HTML*	
 
-> *Mentor: anh Đức*
+> *Mentor: anh Đức - d3ck9*
+
 
 # HTML
 
