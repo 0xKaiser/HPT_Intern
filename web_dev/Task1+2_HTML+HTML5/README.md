@@ -1,5 +1,4 @@
-> *Day 11/11/2022*
->> *Make by Nguyễn Thế Vương*
+> *Day 11/11/2022* >> *Make by Nguyễn Thế Vương*
 >> *Task 1: HTML*	
 >> *Mentor: anh Đức*
 
