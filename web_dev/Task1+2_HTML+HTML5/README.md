@@ -2,7 +2,7 @@
 
 > *Make by K@is3r*
 
-> *Task 1: HTML*	
+> *Task 1&2: HTML + HTML5*	
 
 > *Mentor: anh Đức - d3ck9*
 
