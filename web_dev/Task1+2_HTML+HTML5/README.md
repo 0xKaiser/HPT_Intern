@@ -1,7 +1,7 @@
 > *Day 11/11/2022*
-> *Make by Nguyễn Thế Vương*
-> *Task 1: HTML*	
-> *Mentor: anh Đức*
+>> *Make by Nguyễn Thế Vương*
+>> *Task 1: HTML*	
+>> *Mentor: anh Đức*
 
 # HTML
 
@@ -25,17 +25,6 @@
 -	### 5.3. Phần tử **`<div>`** 
 -	## 6. Lớp
 -	## 7. Id
-
-## Id
-
-Thuộc tính HTML `id` được sử dụng để chỉ định một id duy nhất cho một phần tử HTML.
-
-Bạn không thể có nhiều hơn một phần tử có cùng một id trong một tài liệu HTML.
-
-Tên Id phân biệt hoa thường. Phải chứa ít nhất 1 kí tự, không bắt đầu bằng số và không chứa khoảng trắng.
-
-
-
 
 ## HTML-cơ-bản
 
@@ -246,33 +235,13 @@ Ví dụ:
 `	</body>  `
 `	</html>`
 
+## 7. Id
+
+Thuộc tính HTML `id` được sử dụng để chỉ định một id duy nhất cho một phần tử HTML.
+
+Bạn không thể có nhiều hơn một phần tử có cùng một id trong một tài liệu HTML.
+
+Tên Id phân biệt hoa thường. Phải chứa ít nhất 1 kí tự, không bắt đầu bằng số và không chứa khoảng trắng.
 
 
 
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
