@@ -28,10 +28,7 @@
 -	[6. Lớp](#6-Lớp)
 -	[7. Id](#7-Id)
 -	[8. Responsive HTML](#8-Responsive-HTML)
--	
-
-## 9. Khác nhau giữa HTML và HTML5
-
+-	[9. Khác nhau giữa HTML và HTML5](#9-Khác-nhau-giữa-HTML-và-HTML5)
 
 
 ## 1. HTML cơ bản
@@ -315,3 +312,22 @@ Responsive HTML là tạo ra các trang web tự động điều chỉnh các k�
  Ví dụ: 
 `<h1 style="**font-size:10vw**">Hello World</h1>`
 
+## 9. Khác nhau giữa HTML và HTML5
+
+|Đặc điểm         |HTML      |HTML5 |
+|-------------------|-----------------------|-------------------|
+| Định nghĩa       			|Ngôn ngữ đánh dấu siêu văn bản được dùng để phát triển website| Phiên bản mới nhất của HTML, bổ sung Markup để mô tả cấu trúc và nội dung website|
+| Tương thích trình duyệt    |Tương thích với tất cả trình duyệt nhưng chỉ hoạt động tốt trong các trình duyệt cũ| Trong HTML5, chúng ta có nhiều thẻ mới và bỏ đi một số thẻ. Vì thế, chỉ có một số trình duyệt hỗ trợ hoàn toàn HTML5.|
+|Hỗ trợ đa phương tiện       |Không hỗ trợ video và âm thanh| Tích hợp sẵn các chức năng hỗ trợ video và âm thanh|
+|Storage 	  				 |Dùng bộ nhớ Cache trên trình duyệt làm bộ nhớ tạm.| Hỗ trợ Application cache, SQL Database, Web storage phục vụ cho việc lưu trữ. <br> Ngoài ra, có thể chạy JavaScript thông qua JS API phục vụ sẵn cho việc lưu trữ.|
+|Đồ họa						| Đồ họa vector trong HTML phải dùng Sliver light, Adobe Flash, VML... | Đồ họa vector trong HTML5 hỗ trợ mặc định với Canvas và SVG|
+|Giao tiếp					| Không hỗ trợ Web Socket cho việc giao tiếp giữa Client với Server mà dùng Streaming và Long pooling  | Hỗ trợ Web Socket cho việc giao tiếp song song giữa Server và Client.|
+|Đa luồng					|Giao diện tương tác với user và JS trong cùng luồng. Dẫn đến hiệu suất trang Web thấp.| JS Web Worker API cho phép JS(chạy trong nền) và UI broswer chạy trên các luồng khác nhau|
+|Thẻ applet					| Dùng để hiển thị các applet và thẻ đối tượng giới thiệu ?? | Đã bị xóa|
+|Chữ viết tắt | `<acronnym>` | `<abbr>`|
+|`<table>` | thuộc tính border chỉ có 0 và 1 | có nhiều thuộc tính hơn|
+
+ - Tổng kết: HTML5 sẽ giúp ích cho các lập trình viên phát triển website vì nó cung cấp rất nhiều khả năng như hỗ trợ video và âm thanh, các thẻ mới ngữ nghĩa tốt hơn, nhiều chức năng hơn, có nhiều thông số kỹ thuật hơn. Mặt khác bản cập nhật HTML5 trong tương lai sẽ tập trung vào vấn đề bảo mật.
+ 
+***
+***
