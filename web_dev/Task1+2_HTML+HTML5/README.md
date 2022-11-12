@@ -1,36 +1,40 @@
-> *Day 11/11/2022* 
+> *Day 11/11/2022*
 
-> *Make by K@is3r*
+> *Make by Nguyễn Thế Vương*
 
-> *Task 1&2: HTML + HTML5*	
+> *Task 1: HTML*	
 
-> *Mentor: anh Đức - d3ck9*
+> *Mentor: anh Đức*
 
-
-# HTML
+# HTML 
 
 #### Mục lục 
 -	[HTML](#HTML) 
--	[1.HTML cơ bản](#HTML-cơ-bản)-	
+-	[1. HTML cơ bản](#1-HTML-cơ-bản)
+-	[Tài liệu HTML](#Tài-liệu-HTML)
+-	[1.1. Khai báo doctype](11-khai-báo-doctype)
+-	[1.2. Tiêu đề](#12-tiêu-đề) 
+-	[1.3. Đoạn văn ](#13-Đoạn-văn)
+-	[1.4. Thẻ trống](#14-Thẻ-trống) 
+-	[1.5. Liên kết](#15-Liên-kết) 
+-	[1.6. Hình ảnh](#16-Hình-ảnh) 
+-	[2. Thuộc tính ](#2-Thuộc-tính)
+-	[3. Định dạng](#3-Định-dạng)
+-	[4. Danh sách](#4-Danh-sách)
+-	[5. Khối](#5-Khối)
+-	[5.1. Phần tử cấp khối](#51-Phần-tử-cấp-khối)
+-	[5.2. Phần tử Inline](#52-Phần-tử-Inline)
+-	[5.3. Phần tử **`<div>`** ](#53-Phần-tử-div)
+-	[6. Lớp](#6-Lớp)
+-	[7. Id](#7-Id)
+-	[8. Responsive HTML](#8-Responsive-HTML)
+-	
 
--	[### 1.2.  Tiêu đề](1.2.-Tiêu-đề) 
--	[### 1.3. Đoạn văn ](1.3.-Đoạn-văn)
--	[### 1.4. Thẻ trống](1.4.-Thẻ-trống) 
--	[### 1.5. Liên kết](1.5.-Liên-kết) 
--	[### 1.6. Hình ảnh](1.6.-Hình-ảnh) 
--	-	[## 1. Tài liệu HTML](1.-Tài-liệu-HTML)
--	[### 1.1. Khai báo `<!DOCTYPE>`](1.1.-Khai-báo-*`<!DOCTYPE>`*)
--	[2. Thuộc tính ](Thuộc-tính)
--	[3. Định dạng](##-Định-dạng)
--	[4. Danh sách]
--	[5. Khối]
--	### 5.1. Phần tử cấp khối 
--	### 5.2. Phần tử Inline
--	### 5.3. Phần tử **`<div>`** 
--	## 6. Lớp
--	## 7. Id
+## 9. Khác nhau giữa HTML và HTML5
 
-## HTML-cơ-bản
+
+
+## 1. HTML cơ bản
 
 HTML là ngôn ngữ đánh dấu tiêu chuẩn cho các trang Web. Nó là sườn của 1 web.  
 
@@ -38,10 +42,14 @@ Cấu trúc:  mỗi phần tử gồm phần mở đầu <> và phần kết th�
 
 Ví dụ: `<h1>Lorem ipsum dolor sit amet. </h1>` là một phần tử.
 
-## 1. Tài liệu HTML
+### Tài liệu HTML
 Tất cả các tài liệu HTML phải bắt đầu bằng khai báo loại tài liệu `<!DOCTYPE html>`.
 
 Bản thân tài liệu HTML bắt đầu bằng `<html>`và kết thúc bằng `</html>`.
+
+Phần `<head>`tử là vùng chứa siêu dữ liệu (dữ liệu về dữ liệu) và được đặt giữa `<html>`thẻ và `<body>`thẻ, không được hiển thị, thường xác định tiêu đề tài liệu, bộ ký tự, kiểu, tập lệnh và các thông tin meta khác. 
+
+Phần tử `<title>`dùng để xác định tiêu đề trong thanh công cụ của trình duyệt,  cung cấp tiêu đề cho trang khi nó được thêm vào mục yêu thích, hiển thị tiêu đề cho trang trong kết quả của công cụ tìm kiếm
 
 Phần hiển thị của tài liệu HTML nằm giữa `<body>`và `</body>`.
 
@@ -58,7 +66,9 @@ Khai báo `<!DOCTYPE>`cho HTML5 là:
 
 ### 1.2.  Tiêu đề 
 HTML hỗ trợ 6 thẻ tiêu đề từ  `<h1> đến <h6>`
+
 Cú pháp: **`<h1> Tittle </h1>`**
+
 Trong đó h1 là quan trọng nhất, h6 là ít quan trọng nhất
 
 ### 1.3. Đoạn văn 
@@ -67,13 +77,17 @@ Cú pháp: ` <p> Paragraph </p>
 Lưu ý: HTML sẽ tự động xóa bỏ bắt kì khoảng trắng, xuống dòng thừa 
 
 Giải pháp: Dùng phần tử `<pre>` cho văn bản được định dạng trước. Nó sẽ hiển thị bằng phông chữ có chiều rộng cố định (thường là Courier) và nó giữ nguyên cả khoảng trắng và ngắt dòng
+
 Ví dụ: 
+
 `<pre>  `
+
 Seid ihr das Essen? 
 
 Nein, wir sind der Jäger!
 
 Nhìn                    nguy       hiểm               chưa :)))
+
 `</pre>`
 
 ### 1.4. Thẻ trống
@@ -95,7 +109,8 @@ Hình ảnh được khai báo bằng: **`<img src="Đường dẫn(path) của 
 
 Ví dụ: **`<img src="https://4kwallpapers.com/images/walls/thumbs_2t/6604.jpg  alt="ahihi :))"  width="512"  height="459">`**
 
-Sẽ được kết quả: 
+Sẽ được kết quả:  :))))))
+
 <img src="https://4kwallpapers.com/images/walls/thumbs_2t/6604.jpg" alt="ahihi :))" width="600" height="440">
 
 ## 2. Thuộc tính 
@@ -116,7 +131,7 @@ Một vài thuộc tính phổ biến:
 
 **Thuộc tính lang:** 
 Phải luôn bao gồm "lang" thuộc tính bên trong `<html>`thẻ, để khai báo ngôn ngữ của trang Web. Điều này có nghĩa là để hỗ trợ các công cụ tìm kiếm và trình duyệt.
-Để chỉ định Tiếng Việt:		**`<html lang="utf-8">`**
+Để chỉ định trang web dùng Tiếng Việt:		**`<html lang="utf-8">`**
 
 **Thuộc tính Style:**
 - Nền: `<body style="background-color:powderblue;">`
@@ -140,18 +155,31 @@ Các phần tử định dạng được thiết kế để hiển thị các lo
 -   `<sup>`- Văn bản siêu cấp, n<sup>2</sup>
 
 ## 4. Danh sách
+
 Gồm 2 loại chính danh sách có thứ tự và không theo thứ tự:
+
 Danh sách có thứ tự: 
+
 `<ol>`
+
  ` <li>Coffee</li>`
+ 
 `  <li>Tea</li>`
+
 `  <li>Milk</li>`
+
 `</ol> `
+
 Danh sách không thứ tự:
+
 `<ul>`
+
   `<li>Coffee</li>`
+  
   `<li>Tea</li>`
+  
   `<li>Milk</li>`
+  
 `</ul> `
 
 ## 5. Khối và phần tử inline
@@ -183,9 +211,13 @@ Phần `<div>`tử không có thuộc tính bắt buộc, nhưng `style`, `class
 Khi được sử dụng cùng với CSS, `<div>`phần tử có thể được sử dụng để tạo kiểu cho các khối nội dung:
 
 Ví dụ:
+
 `<div style="background-color:green; color:blue; padding:20px;">  `
+
 `<h2>Mệt quá nên copy vại :)))</h2>  `
+
 `<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>  `
+
 `</div>`
 
 ## 6. Lớp
@@ -199,9 +231,13 @@ Tên lớp có phân biệt hoa thường
 
 Ví dụ:
 `	<!DOCTYPE html>  `
+
 `	<html>  `
+
 `	<head>  `
+
 `	<style>  `
+
 `	.menu{  `
 	background-color:  blue;  
 	color:  white;  
@@ -209,33 +245,52 @@ Ví dụ:
 	margin:  10px;  
 	padding:  30px;  
 	}  
+	
 `	</style>  `
 `	</head>  `
 `	<body>  `
 
 `	<div class="menu">  `
+
 `	<h2>Drink</h2>`
+
 `	<ol>`
+
 `	<li>Coffee</li>`
+
 `	<li>Tea</li>`
+
 `	<li>Milk</li>`
+
 `	</ol>`
+
 `	</div>`
+
 
 `	<div style="text-align:center"; class="menu">  `
+
 `	<h2>Food</h2>`
+
 `	<ul style="text-align:center";>`
+
 `		<li>Rice</li>`
+
 `		<li>Fish</li>`
+
 `		<li>Meat</li>`
+
 `	</ul>`
+
 `	</div>`
 
-`	<div class="city">  `
-`	<h2>Tokyo class = "menu"</h2>  `
-`	<p>Tokyo is the capital of Japan.</p>  `
-`	</div>  `
 
+`	<div class="city">  `
+
+`	<h2>Tokyo class = "menu"</h2>  `
+
+`	<p>Tokyo is the capital of Japan.</p>  `
+
+`	</div>  `
 `	</body>  `
 `	</html>`
 
@@ -247,5 +302,16 @@ Bạn không thể có nhiều hơn một phần tử có cùng một id trong m
 
 Tên Id phân biệt hoa thường. Phải chứa ít nhất 1 kí tự, không bắt đầu bằng số và không chứa khoảng trắng.
 
+## 8. Responsive HTML
+Responsive HTML là tạo ra các trang web tự động điều chỉnh các kích thước màn hình và khung nhìn khác nhau sao cho đẹp mắt trên các thiết bị.
 
+### Đặt chế độ xem
+
+**`<meta name="viewport"  content="width=device-width, initial-scale=1.0">`**
+### Dùng Viewport
+
+ Viewport là kích thước cửa sổ trình duyệt. 1vw = 1% chiều rộng khung nhìn. Nếu khung nhìn rộng 50cm, 1vw là 0,5cm.
+ 
+ Ví dụ: 
+`<h1 style="**font-size:10vw**">Hello World</h1>`
 
