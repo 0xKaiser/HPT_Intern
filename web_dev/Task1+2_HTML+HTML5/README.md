@@ -2,7 +2,7 @@
 
 > *Make by Nguyễn Thế Vương*
 
-> *Task 1: HTML*	
+> *Task 1 & 2: HTML + HTML5*	
 
 > *Mentor: anh Đức*
 
