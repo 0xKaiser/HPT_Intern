@@ -181,7 +181,7 @@ Danh sách không thứ tự:
 
 ## 5. Khối và phần tử inline
 ### 5.1. Phần tử cấp khối 
-Phần tử cấp khối luôn bắt đầu trên một dòng mới và trình duyệt sẽ tự động thêm một số khoảng trắng (lề) trước và sau phần tử.
+Phần tử cấp khối luôn bắt đầu trên **một dòng mới** và trình duyệt sẽ **tự động thêm một số khoảng trắng (lề) trước và sau phần tử**.
 
 Một phần tử cấp khối luôn chiếm toàn bộ chiều rộng có sẵn (trải dài sang trái và phải hết mức có thể).
 
@@ -195,7 +195,7 @@ Ví dụ:
 `<div style="border: 1px solid black">1 khối trong div</div>`
 
 ### 5.2. Phần tử Inline
-Phần tử Inline là 1 phần tử không bắt đầu trên dòng mới mà chỉ chiếm 1 chiều rộng vừa đủ. `<a>, <br>, <i>, <img>, <strong>, <sub>, <sup>,...`  là các phần tử Inline.
+Phần tử Inline là 1 phần tử **không bắt đầu trên dòng mới** mà chỉ chiếm 1 chiều rộng vừa đủ. `<a>, <br>, <i>, <img>, <strong>, <sub>, <sup>,...`  là các phần tử Inline.
 
 Ví dụ: 
 **`<h1>Lorem ipsum dolor <span style="border: 1px solid black">phần tử Inline</span> sit amet. </h1>`**
