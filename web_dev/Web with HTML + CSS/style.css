@@ -1,0 +1,159 @@
+/*style for web*/
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: serif;
+	font-weight: 300;
+	color: #333;
+	line-height: 1,254em;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #3b8bba;
+	transition: all 0.5s;
+	-moz-box-sizing: all 0.5s;
+	-webkit-box-sizing: all 0.5s;
+}
+
+a:hover,a: visited{
+	background: yellow;
+}
+
+/*set background*/
+body{
+	
+	background-image:
+	url('https://img5.goodfon.com/original/2560x1440/9/65/genshin-impact-traveler-mondstadt.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+
+}
+
+/*len khung cho web*/
+#container{
+	padding-top: 100px;
+	position: relative;
+	top: 0;
+	height: 100%;
+}
+
+/*set menu ngang*/
+#menu, .sub-menu{
+	position: fixed;
+	height: 50px;
+	background: black;
+	width: 100%;
+	top: 0;
+	opacity: 0.85;
+}
+
+/*menu decorating*/
+#menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+#menu ul li{
+	width: 180px;
+	line-height: 2.9em;
+	height: 2.9em;
+	display: inline-table;
+	position: relative;
+
+}
+#menu ul li a{
+	display: block;
+	color: white;
+	padding: 0;
+	border-bottom: 1px solid white;
+	background: black;
+	
+}
+
+#menu ul li:hover{
+	background-color: black;
+	opacity: 0.77;
+
+	
+}
+
+
+/*content decorating*/
+#content{
+	padding: 1em 8em;
+}
+#header, .call-to-action{
+	text-align: center;
+}
+#slogan{
+	background-color: white;
+	opacity: 0.45;
+	color: black;
+	font-size: 0.8 em;
+	padding: 0 auto;
+	margin: auto;
+	width: 350px;
+	box-sizing: content-box;
+	text-align: center;
+
+}
+
+/*call to action*/
+.call-to-action{
+	padding: 1.5em 20% ;
+	background: #efefef;
+	border: 1px solid #e8e8e8;
+}
+/*content's split col*/
+.row{
+	overflow: auto;
+	margin: 1.5em auto;
+	padding: 1.5em;
+	background-color: black;
+	opacity: 0.75;
+}
+.row .col{
+	float: left;
+	width: 31.3%;
+	margin-right: 2.99%;
+	color: white;
+}
+.row .col:last-child{
+	float: right;
+	margin-right: 0;
+}
+
+/*pic style*/
+.row .col img{
+	float: left;
+	margin-right: 1em;
+}
+
+/*footer*/
+#footer{
+	font-size: 100%;
+	border-top: 1px solid #e6e6e6;
+	color:  #838383;
+	padding: 1em 3em;
+	text-align: right;
+}
+
+/*sub-menu*/
+#menu ul li > .sub-menu {
+	position: absolute;
+	display: none;
+	top: 50px;
+	background: green;
+
+}
+#menu ul li:hover .sub-menu{
+	display: block;
+}
+
