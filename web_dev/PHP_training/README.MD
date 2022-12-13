@@ -23,6 +23,7 @@ Có 7 kiểu dữ liệu:
 -   Kiểu Mảng (array)
 -   Kiểu NULL
 -   Kiểu Đối Tượng (object)
+
 Khai báo biến bắt đầu bằng &name=value;
 Tương tự python
 
@@ -90,6 +91,8 @@ Post gửi dữ liệu ko nhìn thấy bằng mắt thường, thông qua 1 form
 
 Get gửi dữ liệu trong qua dữ liệu kèm theo trong URL
 
+# Web quản lí Blog và User
+Truy cập từ phần blog_index.php để dẫn ra tất cả file còn lại. 
 
 ///
 
