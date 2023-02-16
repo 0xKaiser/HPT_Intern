@@ -68,9 +68,11 @@ Có thể xem User Agent hiện tại thông qua một số trang web trực tuy
 ### Cách chỉnh sửa UA qua Extension
 Một số Extension dùng để chỉnh sửa UA bao gồm:
 - [User-Agent Switcher for Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=vi)
-<img src="(https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/ua%20switcher%20and%20manager.JPG)" alt="ahihi :))" width="600" height="440">
+<img src="https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/user-agent%20switcher.JPG" alt="ahihi :))" width="600" height="440">
 - [User-Agent Switcher and Manager](https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg?hl=vi)
+<img src="https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/ua%20switcher%20and%20manager.JPG" alt="ahihi :))" width="600" height="440">
 - ...
+
 Hoặc có thể bắt gói *request* rồi chỉnh sửa tham số UA.
 
 ## Sitemap
