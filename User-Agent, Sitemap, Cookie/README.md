@@ -61,7 +61,9 @@ Tuy nhiên, chuỗi **User-Agent** cũng như những **HTTP Header** khác, nó
 ### Kiểm tra UserAgent
 Có thể xem User Agent hiện tại thông qua một số trang web trực tuyến như: 
 - http://my-user-agent.com/
+![myuseragent](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/MY%20%20USER%20%20AGENT.JPG)
 - https://www.whatismyip.com/user-agent/
+![whatismyip](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/What%20Is%20My%20User%20Agent.JPG)
 - ...
 - Hoặc thông qua việc bắt gói tin *request* để kiểm tra tham số User-Agent* ở *HTTP Header*
 
@@ -74,6 +76,16 @@ Một số Extension dùng để chỉnh sửa UA bao gồm:
 - ...
 
 Hoặc có thể bắt gói *request* rồi chỉnh sửa tham số UA.
+
+Các bước:
+1. Chọn 1 Extension trong các link trên => Nhấn thêm vào Chrome
+2. Thêm tiện ích ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20011429.png)
+3. Nhấn vào tiện ích mở rộng ở góc trên bên phải màn hình ![]()
+4. Chọn vào Extension vừa thêm ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20020447.png)
+5. Chọn UA muốn thay đổi
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20020514.png)
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20020538.png)
+7. Kiểm tra ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20020631.png) 
 
 ## Sitemap
 Sitemap là thuật ngữ chỉ sơ đồ website giúp quá trình thu thập của công cụ tìm kiếm điều hướng trang tốt hơn. Cụ thể sitemap là một tập tin văn bản có chứa tất cả các URL của website dẫn đến trang chính, trang con được thể hiện một cách chi tiết, rõ ràng, chính xác. 
@@ -156,9 +168,26 @@ Các công ty quảng cáo sử dụng third-party cookie để theo dõi hoạt
 ### Cách thay đổi Cookie
 Một số Extension dùng để chỉnh sửa Cookie bao gồm:
 - [CookieManager - Cookie Editor](https://chrome.google.com/webstore/detail/cookiemanager-cookie-edit/hdhngoamekjhmnpenphenpaiindoinpo)
+
 - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=vi)
+
 - ...
 Hoặc có thể bắt gói *request* rồi chỉnh sửa Cookie.
+
+Các bước:
+1. Chọn 1 Extension trong các link trên => Nhấn thêm vào Chrome
+2. Thêm tiện ích ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20021502.png)
+3. Nhấn vào tiện ích mở rộng ở góc trên bên phải màn hình ![]()
+4. Chọn vào Extension vừa thêm ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20021701.png)
+5. Chọn giao diện
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20021732.png)
+7. Để lấy thông tin cookie hiện tại, chọn Export rồi copy hết thông tin ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20021820.png) 
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20021907.png)
+8. Kiểm mở 1 trình duyệt mới
+9. Truy cập vào Web cũ, hiện tại trang chưa có tài khoản đăng nhập ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20022033.png)
+10. Để sửa cookie, mở giao diện của extension lên và chọn Import ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20022143.png)
+11. Dán thông tin đã lấy ở trên vào và Import ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20022238.png)
+12. Tận hưởng thành quả :))) ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20022403.png)
 
 ***
 //Make by #k@iser
