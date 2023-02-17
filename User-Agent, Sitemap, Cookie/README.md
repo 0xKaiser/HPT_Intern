@@ -105,6 +105,7 @@ Sitemap là thuật ngữ chỉ sơ đồ website giúp quá trình thu thập c
 
 ### Cách tạo
 - Sử dụng Screaming Frog
+
 Cách làm:
 1. Tải [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/)
 2. Sau khi tải về, tiến hành cài đặt theo mặc định
@@ -120,7 +121,8 @@ Cách làm:
 
 ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20134146.png)
 
-Kết quả: [sitemap.xml](https://github.com/bce-thefirst/HPT_Intern/blob/main/web_dev/PHP_training/sitemap.xml)
+Kết quả:
+-  File [sitemap.xml](https://github.com/bce-thefirst/HPT_Intern/blob/main/web_dev/PHP_training/sitemap.xml) ở thư mục theo đường dẫn `HPT_Intern/blob/main/web_dev/PHP_training/sitemap.xml`.
 
 ![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Capture1.JPG)
 
