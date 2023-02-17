@@ -104,39 +104,25 @@ Các bước:
 Sitemap là thuật ngữ chỉ sơ đồ website giúp quá trình thu thập của công cụ tìm kiếm điều hướng trang tốt hơn. Cụ thể sitemap là một tập tin văn bản có chứa tất cả các URL của website dẫn đến trang chính, trang con được thể hiện một cách chi tiết, rõ ràng, chính xác. 
 
 ### Cách tạo
+- Sử dụng Screaming Frog
+Cách làm:
+1. Tải [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/)
+2. Sau khi tải về, tiến hành cài đặt theo mặc định
+3. Mở SF lên và điền URL là đường dẫn đến web
 
-GỬI SITEMAP LÊN GOOGLE WEBMASTERS TOOL:
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Capture.JPG)
 
-Truy cập vào địa chỉ  [http://www.google.com.vn/webmasters/](https://www.google.com.vn/webmasters/) và đăng nhập vào bằng tài khoản Google hoặc Gmail.
+4. Chọn "Sitemap" trên thanh công cụ => chọn "XML Sitemap"
 
-Thêm website vào Google Webmaster Tools
-[Thêm website vào Google Webmaster Tools](link anh 1)
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20134118.png)
 
-Nhập địa chỉ website vào và ấn Tiếp tục.
-[Nhập địa chỉ website vào và ấn Tiếp tục](link anh 2)
+5. Ở tab "Images" => chọn "Include Images", rồi lưu ở nên chứa web
 
-Tải file xác nhận về máy tính.
-[Tải tập tin xác nhận website](link anh 3)
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Screenshot%202023-02-17%20134146.png)
 
-Tải tập tin xác nhận website và upload nó lên thư mục gốc của website.
-[Upload tập tin xác nhận lên thư mục gốc của website](link anh 4)
+Kết quả: [sitemap.xml](https://github.com/bce-thefirst/HPT_Intern/blob/main/web_dev/PHP_training/sitemap.xml)
 
-Upload tập tin xác nhận lên thư mục gốc của website.
-Cuối cùng là quay lại trang Google Webmaster Tools và ấn nút Xác minh.
-
-[Xác-minh-website-thành-công](linkanh5)
-Xác minh website thành công
-
-Cứ ấn Tiếp tục.
-
-Bây giờ bạn cần vào phần Sơ đồ trang web (Sitemap).
-
-[submit-sitemap-google-6](6)
-
-Và nhập tên tập tin sitemap.
-[yoastseo-submit-sitemap](7)
-
-Kết quả nè:
+![](https://github.com/bce-thefirst/HPT_Intern/blob/main/User-Agent%2C%20Sitemap%2C%20Cookie/img/Capture1.JPG)
 
 
 ## Cookie
